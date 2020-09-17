@@ -1,3 +1,4 @@
+<?php //echo apply_filters('the_content', get_page('20')->post_content); ?>
 <section id="stopkaBig">
 	<div class="container">
 		 <div class="row">
@@ -10,8 +11,7 @@
 			<div class="col-md-3"  id="footer3">
 			</div>
 			<div class="col-md-3" id="footer4">
-				<h3>Na skróty</h3>
-				<?php wp_nav_menu( array( 'theme_location' => 'mainmenu','menu_class' => 'nav' ) ); ?>
+				
 			</div>
 		 </div>
 	</div>
@@ -19,10 +19,10 @@
 <section id="stopka">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">© <?php echo date('Y');?></div>
-			<div class="col-md-6"> 
+			<div class="col-xs-6">© <?php echo date('Y');?></div>
+			<div class="col-xs-6"> 
 				<div class="pull-right">
-					Wdrożenie: Solmedia.pl
+					Wdrożenie: <a target="_blank" href="https://solmedia.pl">solmedia.pl</a>
 				</div>
 			</div>
 		</div>
