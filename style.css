@@ -50,6 +50,10 @@ section {
     top:0;
 	background: #fff;
 	padding: 10px 0;
+	transition:0.3s all ease;
+}
+#header.smaller {
+	padding: 10px 0;
 }
 #header .row {
 	display: flex;
