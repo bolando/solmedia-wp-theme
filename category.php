@@ -1,11 +1,7 @@
 <?php get_header(); ?>
-	<section id="slider" class="parallax-window" data-parallax="scroll" data-image-src="/wp-content/themes/ling/img/tlo.jpg">
-		<div class="container">
-			<div class="ramka">
-				<h2><?php echo single_cat_title();?></h2>
-			</div>
-		</div>
-	</section>
+<section id="tlo">
+	<h1><?php echo single_cat_title(); echo get_the_archive_title(); ?></h1>
+</section>
 <section id="category">
 	<div class="container">
 		<div class="row">
