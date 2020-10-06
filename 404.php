@@ -14,8 +14,6 @@
         </article>
         
     </div> 
-    
-<?php get_sidebar(); ?>
 
 </section>
 
