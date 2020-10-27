@@ -9,11 +9,16 @@ $id =  $wp_query->post->ID; ?>
 		</div>
 	</section>
 	<main role="main" class="container">
-		<section>
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-				<?php the_content(); ?>
-			</article>
-		</section>
+		<div class="row">
+			<div class="col-md-9">
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+					<?php the_content(); ?>
+				</article>
+			</div>
+			<div class="col-md-3">
+				<?php dynamic_sidebar( 'right' ); ?>
+			</div>
+		</div>
 	</main>
 		<?php endwhile; ?>
 		<?php endif; ?>
