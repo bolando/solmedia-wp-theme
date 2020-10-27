@@ -32,7 +32,7 @@ h1,h2,h3 {
     font-weight: 700;
 }
 /*Sekcje*/
-section {
+section,body:not(.kingcomposer) article {
    padding:30px 0
 }
 #category,.single main {

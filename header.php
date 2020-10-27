@@ -10,7 +10,7 @@
 	<?php wp_head(); ?>
 	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Kanit:700&subset=latin-ext" rel="stylesheet">
-        <link href="/wp-content/themes/solmedia/img/favicon.png" rel="shortcut icon" />
+        <link href="<?php echo get_template_directory_uri();?>/img/favicon.png" rel="shortcut icon" />
  </head>
 <body <?php body_class(); ?>>
 <section id="header">
