@@ -19,7 +19,7 @@
 <section id="stopka">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-6">© <?php echo date('Y');?></div>
+			<div class="col-xs-6">© <?php bloginfo('name'); ?> <?php echo date('Y');?></div>
 			<div class="col-xs-6"> 
 				<div class="pull-right">
 					Wdrożenie: <a target="_blank" href="https://solmedia.pl">solmedia.pl</a>
