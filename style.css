@@ -214,4 +214,16 @@ blockquote.right {
 	margin-right: 0;
 	width: 33%;
 	float: right;
+}
+
+@media (max-width: 991px) {
+	#category .post {
+	    padding-bottom: 60px;		
 	}
+	.wrap-img {
+		text-align: center;
+		float: none;
+		margin-right: 0;
+		max-width: none;
+	}
+}
