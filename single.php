@@ -8,15 +8,17 @@ $id =  $wp_query->post->ID; ?>
 			</div>
 		</div>
 	</section>
-	<main role="main" class="container">
-		<div class="row">
-			<div class="col-md-9">
-				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<?php the_content(); ?>
-				</article>
-			</div>
-			<div class="col-md-3">
-				<?php dynamic_sidebar( 'right' ); ?>
+	<main role="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+						<?php the_content(); ?>
+					</article>
+				</div>
+				<div class="col-md-3">
+					<?php dynamic_sidebar( 'right' ); ?>
+				</div>
 			</div>
 		</div>
 	</main>
