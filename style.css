@@ -153,6 +153,9 @@ div.date {
     margin-right: 15px;
     max-width:300px;
 }
+.wrap_info h3{
+	margin-top: 0;
+}
 #category .post {
     padding-bottom: 30px;
 }
