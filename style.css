@@ -30,6 +30,7 @@ a {
 }
 a:hover {
 	opacity: .85;
+	color: #000000;
 }
 h1,h2,h3 {
     font-family: 'Kanit',sans-serif;
