@@ -290,3 +290,8 @@ blockquote.right {
 		max-width: none;
 	}
 }
+@media (min-width: 992px) {
+	#mega-menu-wrap-mainmenu #mega-menu-mainmenu > li.mega-menu-item.mega-current-menu-item,#mega-menu-wrap-mainmenu #mega-menu-mainmenu > li.mega-menu-item.mega-current-menu-parent,div #mega-menu-wrap-mainmenu #mega-menu-mainmenu > li.mega-menu-item:hover {
+		border-bottom: 2px solid #000000;
+	}
+}
