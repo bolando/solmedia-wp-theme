@@ -10,7 +10,9 @@
 	License: MIT
 	License URI: http://opensource.org/licenses/mit-license.php
 */
-/*baza*/
+/*baza
+basic color change #000000
+*/
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
@@ -23,7 +25,7 @@ img {
 	height: auto;
 }
 a {
-	color:#6f6f6f;
+	color:#000000;
     transition:0.3s all ease;
 }
 a:hover {
@@ -33,6 +35,13 @@ h1,h2,h3 {
     font-family: 'Kanit',sans-serif;
     font-weight: 700;
 }
+.btn {
+	border: 0;
+	border-radius:0;
+}
+.btn-primary {
+	background-color: #000000 !important;
+}
 .right {
 	text-align: center;
 }
@@ -41,6 +50,11 @@ h1,h2,h3 {
 }
 .flex {
 	display: flex;
+}
+@media (min-width: 1320px) {
+	.container {
+		width: 1300px;
+	}
 }
 /*Sekcje*/
 section,body:not(.kingcomposer) article {
@@ -85,7 +99,7 @@ section,body:not(.kingcomposer) article {
 	text-align: center;
 }
 #stopkaBig {
-	background:#333;
+	background:#000000;
 	color: #fff;
 }
 #stopka{
