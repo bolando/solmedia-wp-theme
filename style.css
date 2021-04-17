@@ -24,9 +24,15 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+@media (min-width: 1330px) {
+	.container {
+		width: 1270px;
+	}
+}
 a {
 	color:#000000;
     transition:0.3s all ease;
+    word-break: break-word;
 }
 a:hover {
 	opacity: .85;
@@ -180,7 +186,7 @@ section,body:not(.kingcomposer) article {
     border-left: 0px solid #ccc;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #4d79bc;
+    background-color: #000000;
 }
 /*Misc*/
 article p img {
