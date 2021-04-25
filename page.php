@@ -9,7 +9,7 @@
 		</div>
 	</section>
 <?php endif;?>
-	<main role="main" class="container">
+	<main role="main" class="container" <?php $classes = get_body_class(); if (!in_array('kingcomposer',$classes)):?> class="container" <?php endif;?>>
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<?php the_content(); ?>
 		</article>
