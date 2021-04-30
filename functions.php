@@ -7,7 +7,7 @@ add_action( 'wp_enqueue_scripts', 'my_scripts' );
 
 //Add thumbnail, automatic feed links and title tag support
 add_theme_support( 'post-thumbnails' );
-add_image_size( 'a_home', 300, 200, array( 'center', 'center') );
+add_image_size( 'a_home', 350, 220, array( 'center', 'center') );
 
 //rejestracja widgetu
 register_sidebar( array(
