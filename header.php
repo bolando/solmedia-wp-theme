@@ -3,13 +3,16 @@
  <head>
   <meta charset="<?php bloginfo('charset'); ?>">
  <title><?php bloginfo('name'); ?> » <?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
+ <title><?php if (!is_front_page()) { wp_title(''); echo " » ";}; ?><?php bloginfo('name'); ?> <?php is_front_page() ? echo " » "; bloginfo('description');?></title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes"/>
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="apple-mobile-web-app-capable" content="YES" />
 	<?php wp_head(); ?>
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Kanit:700&subset=latin-ext" rel="stylesheet">
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+	<meta name="theme-color" content="#7c7c7a">-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
         <link href="<?php echo get_template_directory_uri();?>/img/favicon.png" rel="shortcut icon" />
  </head>
 <body <?php body_class(); ?>>
