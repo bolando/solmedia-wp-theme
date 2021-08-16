@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section id="tlo">
 	<h1><?php echo single_cat_title();?></h1>
-</section> 
+</section>  
 <section id="category">
 	<div class="container">
 		<div class="row">
