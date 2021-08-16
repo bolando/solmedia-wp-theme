@@ -12,7 +12,6 @@
 	<meta name="theme-color" content="#7c7c7a">-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-        <link href="<?php echo get_template_directory_uri();?>/img/favicon.png" rel="shortcut icon" />
  </head>
 <body <?php body_class(); ?>>
 <section id="header">

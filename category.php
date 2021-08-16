@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section id="tlo">
-	<h1><?php echo single_cat_title(); echo get_the_archive_title(); ?></h1>
+	<h1><?php echo single_cat_title();  ?></h1>
 </section>
 <section id="category">
 	<div class="container">

@@ -152,6 +152,7 @@ section,body:not(.kingcomposer) article {
 	font-size:11px;
 	font-weight:300;
 	color:#fff;
+	clear: both;
 }
 #stopka a {
 	color: #ddd;
@@ -292,10 +293,5 @@ blockquote.right {
 		float: none;
 		margin-right: 0;
 		max-width: none;
-	}
-}
-@media (min-width: 992px) {
-	#mega-menu-wrap-mainmenu #mega-menu-mainmenu > li.mega-menu-item.mega-current-menu-item,#mega-menu-wrap-mainmenu #mega-menu-mainmenu > li.mega-menu-item.mega-current-menu-parent,div #mega-menu-wrap-mainmenu #mega-menu-mainmenu > li.mega-menu-item:hover {
-		border-bottom: 2px solid #000000;
 	}
 }
