@@ -11,7 +11,7 @@
 	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
 	<meta name="theme-color" content="#7c7c7a">-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">      
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">       
  </head>
 <body <?php body_class(); ?>>
 <section id="header">
