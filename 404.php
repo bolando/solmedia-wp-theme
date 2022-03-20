@@ -8,9 +8,6 @@
                 <h1 class="entry-title">404 Nie znaleziono strony</h2>
             </header>
             <p>Chyba nie ma takiej strony. Może łącze, którego użyłeś, zawiera błąd?</p>
-            <p>Jeśli chcesz, możesz spróbować znaleźć to, czego tu szukałeś?</p>
-
-            <?php get_search_form(); ?>
         </article>
         
     </div> 
