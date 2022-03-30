@@ -44,8 +44,9 @@ h1,h2,h3 {
 	border: 0;
 	border-radius:0;
 }
-.btn-primary,.kc_button {
+.btn-primary,body .kc_button {
 	background-color: var(--primary) !important;
+	color: #fff !important;
 }
 .right {
 	text-align: right;
