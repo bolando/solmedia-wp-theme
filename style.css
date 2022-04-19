@@ -115,7 +115,6 @@ section,body:not(.kingcomposer) article {
     width: 100%;
     position: fixed;
     z-index: 10;
-    box-shadow: 0 0 5px #333;
     top:0;
 	background: #fff;
 	padding: 10px 0;
@@ -123,6 +122,7 @@ section,body:not(.kingcomposer) article {
 }
 #header.smaller {
 	padding: 10px 0;
+    box-shadow: 0 0 5px #333;
 }
 #header .row {
 	display: flex;
