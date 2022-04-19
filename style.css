@@ -17,6 +17,7 @@ body {
     overflow-x:hidden;
 	font-size: 16px;
 	line-height: 1.62;
+	color: #000;
 }
 img {
 	max-width: 100%;
