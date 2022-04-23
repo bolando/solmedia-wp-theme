@@ -237,10 +237,13 @@ h3.title {
 	text-transform: uppercase;
 	padding-right: 10px;
 }
-.navigation {
+.pagination {
 	width: 100%;
     display: flex;
     justify-content: center;	
+}
+.pagination > * {
+	margin: 0 5px;
 }
 /*Editor*/
 .entry-content img {

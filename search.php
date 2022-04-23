@@ -11,6 +11,9 @@
 				<li><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php search_title_highlight(); ?></a></li>
 				<?php //search_content_highlight(); ?>
 			<?php endwhile; ?>
+			<div class="pagination">
+				<?php solmedia_pagination(); ?>
+			</div>
 			<?php endif; ?>
 			</ol>
 		</section>

@@ -3,7 +3,6 @@
  <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <title><?php if (!is_front_page()) { wp_title(''); echo " » ";}; ?><?php bloginfo('name'); ?> <?php if (is_front_page()) { echo " » "; bloginfo('description');};?></title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes"/>
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="apple-mobile-web-app-capable" content="YES" />

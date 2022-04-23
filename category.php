@@ -22,6 +22,9 @@
 						</div>
 					</div>
 					<?php endwhile; ?>
+					<div class="pagination">
+						<?php solmedia_pagination(); ?>
+					</div>
 				<?php endif; ?>  
 			</div>
 			<div class="col-md-3">
