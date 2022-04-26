@@ -121,7 +121,7 @@ section,body:not(.kingcomposer) article {
 	transition:0.3s all ease;
 }
 #header.smaller {
-	padding: 10px 0;
+	padding: 5px 0;
     box-shadow: 0 0 5px #333;
 }
 #header .row {
