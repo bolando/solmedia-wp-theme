@@ -23,11 +23,6 @@ img {
 	max-width: 100%;
 	height: auto;
 }
-@media (min-width: 1330px) {
-	.container {
-		width: 1270px;
-	}
-}
 a {
 	color:var(--primary);
     transition:0.3s all ease;
