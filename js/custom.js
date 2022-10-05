@@ -12,4 +12,7 @@ jQuery(function(){
 	jQuery(document).scroll(function() {
 		ustawHeader()
 	})
+	//odstep
+	var odstep = jQuery('#header').height();
+	jQuery('.odstep').css('padding-top',odstep+'px');
 })

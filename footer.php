@@ -1,4 +1,4 @@
-<?php echo apply_filters('the_content', get_page('23')->post_content); ?>    
+<?php echo do_shortcode(get_page('23')->post_content); ?>    
 <section id="stopka">
 	<div class="container">
 		<div class="row">

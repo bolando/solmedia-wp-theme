@@ -141,6 +141,33 @@ section,body:not(.kingcomposer) article {
 	background:var(--primary);
 	color: #fff;
 }
+#stopkaBig .menu {
+	padding-left: 0;
+}
+#stopkaBig .menu li {
+	display: block;
+}
+#stopkaBig h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+#stopkaBig a {
+	color: #fff;
+}
+#stopkaBig .kc-fb-layout-3 {
+	margin-bottom: 10px;
+}
+#stopkaBig .kc-fb-layout-3 .content-icon{
+	min-width: 20px;
+	text-align: center;
+}
+#stopkaBig .kc-fb-layout-3 .content-icon i {
+    font-size: 18px;
+}
+#stopkaBig .content-desc {
+	margin-bottom: 0;
+	color:#fff;
+}
 #stopka{
 	background:#333;
 	padding:10px 0;
