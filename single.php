@@ -1,13 +1,6 @@
 <?php get_header(); ?>
-<?php if (have_posts()): while (have_posts()) : the_post();
-$id =  $wp_query->post->ID; ?>
-	<section id="tlo">
-		<div class="container">
-			<div class="ramka">
-				<h1><?php the_title(); ?></h1>
-			</div>
-		</div>
-	</section>
+<?php if (have_posts()): while (have_posts()) : the_post();?>
+<?php get_template_part('h1');?>
 	<main role="main">
 		<div class="container">
 			<div class="row">

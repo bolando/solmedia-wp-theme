@@ -1,13 +1,7 @@
 <?php get_header(); ?>
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 <?php if (!is_front_page()):?>
-	<section id="tlo">
-		<div class="container">
-			<div class="ramka">
-				<h1><?php the_title(); ?></h1>
-			</div>
-		</div>
-	</section>
+	<?php get_template_part('h1');?>
 <?php endif;?>
 	<main role="main" <?php $classes = get_body_class(); if (!in_array('kingcomposer',$classes)):?> class="container" <?php endif;?>>
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

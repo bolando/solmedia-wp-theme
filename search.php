@@ -14,6 +14,8 @@
 			<div class="pagination">
 				<?php solmedia_pagination(); ?>
 			</div>
+			<?php else:?>
+			brak wyników dla podanej frazy
 			<?php endif; ?>
 			</ol>
 		</section>
