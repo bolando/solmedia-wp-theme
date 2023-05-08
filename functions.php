@@ -80,3 +80,12 @@ function solmedia_pagination()
         'total' => $wp_query->max_num_pages
     ));
 }
+//excerpt
+function wpdocs_custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+function alx_excerpt_more( $more ) {
+    return '...';
+}
+add_filter( 'excerpt_more', 'alx_excerpt_more' );
