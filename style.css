@@ -245,7 +245,7 @@ div.date {
 	display: flex;	
     flex-wrap: wrap;
 }
-.flex .post {
+.flex .hentry {
 	width: 350px;
     margin-right: 30px;
 	margin-bottom: 30px;
@@ -347,4 +347,10 @@ body.kingcomposer section[data-kc-equalheight=true]>.kc-container .kc-wrap-colum
 	margin-right: -15px;
 	width: auto;
 	min-width: 100%;
+}
+
+@media (max-width: 767px) {
+	.row > * {
+		width: 100%;
+	}
 }
