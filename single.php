@@ -6,7 +6,9 @@
 			<div class="row">
 				<div class="col-md-9">
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-						<div class="date"><?php echo get_the_date(); ?></div>
+						<?php if (get_post_type() == 'post'):?>
+							<div class="date"><?php echo get_the_date(); ?></div>
+						<?php endif;?>
 						<?php the_content(); ?>
 					</article>
 				</div>
