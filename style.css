@@ -354,3 +354,6 @@ body.kingcomposer section[data-kc-equalheight=true]>.kc-container .kc-wrap-colum
 		width: 100%;
 	}
 }
+.search-highlight {
+	background:yellow
+}
