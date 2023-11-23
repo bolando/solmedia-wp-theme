@@ -117,3 +117,12 @@ function search_title_highlight() {
 
     echo $title;
 }
+//własny rozmiar do galerii
+function dodaj_moj_wlasny_rozmiar($sizes) {
+    $nowe_rozmiary = array(
+        'a_home' => 'Domyślny',
+    );
+	$sizes = $nowe_rozmiary + $sizes;
+    return $sizes;
+}
+add_filter('image_size_names_choose', 'dodaj_moj_wlasny_rozmiar');
