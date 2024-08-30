@@ -125,3 +125,12 @@ function dodaj_moj_wlasny_rozmiar($sizes) {
     return $sizes;
 }
 add_filter('image_size_names_choose', 'dodaj_moj_wlasny_rozmiar');
+
+//wyłączenie maili do admina o aktualizacjach
+add_filter('auto_core_update_send_email', 'disable_auto_update_emails', 10, 4);
+function disable_auto_update_emails($send, $type, $core_update, $result) {
+    if ( !empty($type) && $type == 'success' ) {
+        return false;
+    }
+    return true;
+}
