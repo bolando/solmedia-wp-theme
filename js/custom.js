@@ -1,18 +1,29 @@
-jQuery(function(){
+jQuery(function($){
 	//sticky header class
 	function ustawHeader(){
-		var pozycja = jQuery(document).scrollTop();
+		var pozycja = $(document).scrollTop();
 		if (pozycja > 200) {
-			jQuery('#header').addClass('smaller')
+			$('#header').addClass('smaller')
 		} else {
-			jQuery('#header').removeClass('smaller')
+			$('#header').removeClass('smaller')
 		}
 	}
 	ustawHeader();
-	jQuery(document).scroll(function() {
+	$(document).scroll(function() {
 		ustawHeader()
 	})
+	//Ukrycie menu przy scrollowaniu na komórce
+	var prevScrollpos = $(document).scrollTop();
+	$(document).scroll(function(){
+	  var currentScrollPos = $(document).scrollTop();
+	  if (prevScrollpos > currentScrollPos) {
+		$('#header').show();
+	  } else {
+		$('#header').hide();
+	  }
+	  prevScrollpos = currentScrollPos;
+	})
 	//odstep
-	var odstep = jQuery('#header').height();
-	jQuery('.odstep').css('padding-top',odstep+'px');
+	var odstep = $('#header').height();
+	$('.odstep').css('padding-top',odstep+'px');
 })
