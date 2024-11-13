@@ -1,6 +1,6 @@
 <?php
 function my_scripts() {
-	wp_enqueue_style( 'bt-styles', get_stylesheet_directory_uri() . '/css/bootstrap.min.css', array(), '3.7' );
+	wp_enqueue_style( 'bt-styles', get_stylesheet_directory_uri() . '/css/bootstrap.min.css', array(), '3.4.1' );
 	wp_enqueue_style( 'theme-styles', get_stylesheet_directory_uri() . '/style.css', array(), filemtime( get_stylesheet_directory() . '/style.css' ) );
     wp_enqueue_script( 'script-name', get_template_directory_uri() . '/js/custom.js', array(), filemtime( get_stylesheet_directory() . '/js/custom.js' ), true );
 }
