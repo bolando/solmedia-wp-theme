@@ -46,6 +46,7 @@ h1,h2,h3 {
 .btn-primary,body .kc_button {
 	background-color: var(--primary) !important;
 	color: #fff !important;
+	border: 0;
 }
 .right {
 	text-align: right;
