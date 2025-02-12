@@ -352,3 +352,35 @@ body.kingcomposer section[data-kc-equalheight=true]>.kc-container .kc-wrap-colum
 .search-highlight {
 	background:yellow
 }
+#s {
+	border-radius:12px 0 0 12px;
+}
+#searchsubmit {
+	border: 1px solid #ffffff47;
+    border-radius: 0 8px 8px 0;
+}
+
+@media (min-width: 992px) {
+	.odstepy-poziom :is(.kc_column,.kc_column_inner,.col-md-6):first-child {
+		padding-right: 45px;
+	}
+	.odstepy-poziom :is(.kc_column,.kc_column_inner,.col-md-6):last-child {
+		padding-left: 45px;
+	}
+}
+.wrap-img, .kc_single_image img, .wp-post-image, iframe, .size-large, .gallery-item img {
+    border-radius: 12px;
+    overflow: hidden;
+}
+body .kc_single_image {
+	line-height: inherit;
+}
+.scapt {
+	font-size: 14px;
+	font-style: italic;
+	padding-top: 1px;
+	text-align: center;
+}
+.bg-gray {
+	background: #f5f5f5;
+}
